@@ -1,0 +1,42 @@
+$font-stack: system-ui;
+$background-color: #042940;
+$primary-color: #005C53;
+$secondary-color: #D6D58E;
+
+body {
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: $primary-color;
+    width: auto;
+}
+
+div {
+    background-color: $secondary-color;
+    margin: 10px 15px 0;
+    padding: 5px 50px;
+}
+
+.blog__text {
+    color: $primary-color;
+    font-family: $font-stack;
+
+    &--first {
+        font-weight: bold;
+    };
+
+    &--second {
+        font-weight: lighter;
+    }
+}
+
+.menu__text {
+    font-family: $font-stack;
+    color: $secondary-color;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
